@@ -1,0 +1,54 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for the buttons */
+.button-container {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: auto;
+    background-color: #f7f7f7;
+}
+
+/* Styling for the buttons */
+.button {
+    width: 120px;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.red-button {
+    background-color: red;
+}
+
+.yellow-button {
+    background-color: yellow;
+    color: black;
+}
+
+.green-button {
+    background-color: green;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
